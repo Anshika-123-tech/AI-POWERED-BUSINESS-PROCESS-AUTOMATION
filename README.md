@@ -54,8 +54,8 @@ npm start
 Environment variables (.env):
 
 PORT=5000
-DATABASE_URL=<your_db_url>
-N8N_WEBHOOK_URL=<your_n8n_webhook_url>
+DATABASE_URL=<https://n8n-automation-qt26.onrender.com/docs#>
+N8N_WEBHOOK_URL=<https://n8n18.app.n8n.cloud/workflow/MExjO78ZeMbaPw30>
 ⚡ n8n Workflow
 Handles automated processing of tickets.
 Triggered via webhook from backend.
@@ -77,10 +77,6 @@ curl -X POST <n8n_webhook_url> -H "Content-Type: application/json" -d '{"ticket_
 Frontend → Render / Vercel (public URL replaces localhost)
 Backend → Render / Heroku / any cloud service
 n8n → n8n cloud or self-hosted (workflow active & public)
-
-Tip:
-Replace all http://localhost:8080 URLs with the public frontend URL in backend and n8n webhook configuration.
-
 📝 Usage
 Open the deployed frontend URL.
 Sign in or register.
