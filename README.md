@@ -56,6 +56,9 @@ Environment variables (.env):
 PORT=5000
 DATABASE_URL=<https://n8n-automation-qt26.onrender.com/docs#>
 N8N_WEBHOOK_URL=<https://n8n18.app.n8n.cloud/workflow/MExjO78ZeMbaPw30>
+DEPLOYED LINK :
+ai-workflow-automation-343n-ci0rftulg-sneha-techvs-projects.vercel.app
+
 ⚡ n8n Workflow
 Handles automated processing of tickets.
 Triggered via webhook from backend.
